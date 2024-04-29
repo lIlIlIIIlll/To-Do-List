@@ -1,0 +1,149 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    margin:0;
+    letter-spacing: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html, body{
+    height: 100vh;
+}
+
+
+
+#faixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 26%;
+    background-color: #0d0d0d;
+}
+
+#faixa b{
+    display: flex;
+    width: 10%;
+    height: 30%;
+}
+
+.textinho{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 250%;
+    color: #5E60CE;
+    position: relative;
+    bottom: 15%;
+}
+
+#to{
+    color: #4EA8DE;
+}
+
+#faixa b::before {
+    content: " ";
+    display: inline-block;
+    overflow: hidden;
+    background-size: 1.6rem;
+    width: 2rem;
+    height: 3rem;
+    background-image: url("images/foguetinho.png");
+    background-repeat: no-repeat;
+}
+
+#resto{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #191919;
+}
+
+#criarT{
+    position: absolute;
+    top: 22%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 10%;
+}
+
+#nomeT{
+    background-color: #262626;
+    border-radius: 5px;
+    width: 60%;
+    height: 75%;
+    margin-right: 2%;
+    border: #0d0d0d solid 1px;
+    outline: 0;
+    color: #808080;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 1%;
+}
+
+#botaoT{
+    width: 8%;
+    height: 75%;
+    border-radius: 5px;
+    background-color: #1e6f9f;
+    border: 0;
+    font-family: sans-serif;
+    font-size: 75%;
+    color: #ffff;
+}
+
+#contadores{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 3%;
+}
+
+#Tarefas_Criadas{
+    display: flex;
+
+}
+
+#TC{
+    color: #4EA8DE;
+    width: 7.7rem;
+}
+
+#Tarefas_Concluidas{
+    display: flex;
+
+}
+
+#Concluidas{
+    color: #5E60CE;
+    width: 5rem; 
+}
+
+.Count{
+    color: #d9d9d9;
+}
+
+.numero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    width: 1.3rem;
+    height: 1.2rem;
+    border-radius: 10px;
+}
+
+#Tarefas{
+    background-color: #191919;
+    width: 75%;
+    height: 75%;
+    align-self: center;
+    position: absolute;
+    top: 48%;
+    left: 12.5%;
+    border-radius: 5px;
+    overflow-y: auto;
+}
